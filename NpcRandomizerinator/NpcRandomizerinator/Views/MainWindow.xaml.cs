@@ -24,5 +24,10 @@ namespace NpcRandomizerinator
         {
             InitializeComponent();
         }
+
+        private void justButton_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
