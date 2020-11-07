@@ -19,7 +19,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Button x:Name="genNpcButton" Grid.Column="0" Grid.Row="0" Content="Generuj NPC" Margin="50,30,50,30" ></Button>
-        <Button x:Name="addNameButton" Grid.Column="2" Grid.Row="0" Content="dodaj imię" Margin="50,10,50,60" ></Button>
+        <Button x:Name="addNameButton" Grid.Column="2" Grid.Row="0" Content="dodaj imię" Margin="50,10,50,60" Click="addNameButton_Click"></Button>
         <Button x:Name="addSurnameButton" Grid.Column="2" Grid.Row="0" Content="dodaj nazwisko" Margin="50,60,50,10" ></Button>
         <Button x:Name="addProffesionButton" Grid.Column="2" Grid.Row="1" Content="dodaj profesję" Margin="50,10,50,60" ></Button>
         <Button x:Name="addGoalButton" Grid.Column="2" Grid.Row="1" Content="dodaj cel" Margin="50,60,50,10" ></Button>
