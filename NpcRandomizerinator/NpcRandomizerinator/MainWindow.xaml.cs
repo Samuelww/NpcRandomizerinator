@@ -25,9 +25,14 @@ namespace NpcRandomizerinator
             InitializeComponent();
         }
 
-        private void justButton_Click(object sender, RoutedEventArgs e)
+        private void AddNameButton_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+
+        }
+
+        private void genNpcButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
