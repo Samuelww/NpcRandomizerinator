@@ -17,9 +17,9 @@ namespace NpcRandomizerinator.Views
     /// <summary>
     /// Logika interakcji dla klasy Window1.xaml
     /// </summary>
-    public partial class AddName : Window
+    public partial class AddNameWindow : Window
     {
-        public AddName()
+        public AddNameWindow()
         {
             InitializeComponent();
         }

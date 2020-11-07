@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using NpcRandomizerinator.Views;
 
 namespace NpcRandomizerinator
 {
@@ -25,14 +26,10 @@ namespace NpcRandomizerinator
             InitializeComponent();
         }
 
-        private void AddNameButton_Click(object sender, RoutedEventArgs e)
+        private void addNameButton_Click(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void genNpcButton_Click(object sender, RoutedEventArgs e)
-        {
-
+            var addNameButtonWindow = new AddNameWindow();
+            addNameButtonWindow.Show();
         }
     }
 }
